@@ -92,9 +92,6 @@ echo "API_BASE_URL=https://your-scraper.example" > .env.local
 # 3. dev
 npm run dev          # → http://localhost:3000
 
-# production
-npm run build && npm start
-
 # sanity
 npm run typecheck
 npm run lint
